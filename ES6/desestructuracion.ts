@@ -20,11 +20,17 @@
     // console.log(poder);
     const print = ({ iroman, ...resto }: Avengers) => {
 
-        console.log(iroman, resto);
+        // console.log(iroman, resto);
 
 
     }
 
     print(avengers)
+
+
+
+    const avengersArr: [string, string, boolean, number] = ["Iroman", "Hulk", true, 6]
+    const [capi, hulk, seriaUnBooleano] = avengersArr
+    // console.log({ hulk, seriaUnBooleano })
 
 })()
