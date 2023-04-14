@@ -1,4 +1,5 @@
 (() => {
+
     type Hero = {
         name: string,
         age?: number,
@@ -7,6 +8,7 @@
     }
 
     let myCustomVariable: (string | number | Hero) = 'Ivan';
+    
      myCustomVariable = {
         name:'jose',
         age:23,
